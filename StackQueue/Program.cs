@@ -16,17 +16,6 @@ namespace StackQueue
             stk.pop();
             stk.IsEmpty();
             stk.display();
-
-
-            //Console.WriteLine("\n UC2StackProblem.");
-            //UC1StackPushPop stackProblem = new UC1StackPushPop();
-            //stackProblem.push(56);
-            //stackProblem.push(30);
-            //stackProblem.push(70);
-            //stackProblem.peek();
-            //stackProblem.display();
-            //stackProblem.pop();
-            //stackProblem.display();
         }
     }
 }

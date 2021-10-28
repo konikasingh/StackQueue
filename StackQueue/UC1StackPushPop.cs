@@ -28,26 +28,6 @@ namespace StackQueue
             this.top = node;  //node to assigned to the top of stack
             Console.WriteLine(" {0} push to stack ", value);
         }
-        //internal void peek()  //To dislay the top of the stack
-        //{
-        //    if (this.top == null)
-        //    {
-        //        Console.WriteLine("\n Stack is empty..");
-        //        return;
-        //    }
-        //    Console.WriteLine("\n {0} is top of the stack. ", this.top.data); //To dislay the top of the stack
-        //}
-
-        //internal void pop()  //here delete the element into the top of the stack
-        //{
-        //    if (this.top == null)
-        //    {
-        //        Console.WriteLine("\n Stack is Empty, Stack of top Not delete.");
-        //        return;
-        //    }
-        //    Console.WriteLine("\n Data popped {0} in Stack of top. ", this.top.data); //actual popped data display
-        //    this.top = this.top.next; //increment top of stack
-        //}
         internal void display()  //display the all stack of the data
         {
             Node temp = this.top;
